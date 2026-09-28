@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "name": "Mary Monahan",
+      "id": "dcub6CA7sDI"
+    }
+  ],
+  "albums": [],
+  "photos": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
