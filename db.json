@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "dacb6CA7sSI",
       "name": "Myra"
     },
     {
@@ -13,7 +13,28 @@
       "id": "b61P2mD2qm8"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": "dacb6CA7sSI",
+      "title": "Ergonomic Metal Shirt",
+      "id": "7fu9B3AD6O8"
+    },
+    {
+      "userId": "dacb6CA7sSI",
+      "title": "Fresh Bronze Shoes",
+      "id": "35alk4yMz0E"
+    },
+    {
+      "userId": "dcub6CA7sDI",
+      "title": "Recycled Bamboo Mouse",
+      "id": "jN1exwmcW6M"
+    },
+    {
+      "userId": "dcub6CA7sDI",
+      "title": "Bespoke Steel Gloves",
+      "id": "QpqBStl7jk8"
+    }
+  ],
   "photos": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

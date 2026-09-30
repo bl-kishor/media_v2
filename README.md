@@ -1,21 +1,26 @@
 # Media V2
 
-A learning-focused React project built to practice modern state management and UI styling patterns.
+A learning-focused React project for practicing Redux Toolkit, RTK Query, API data flows, and Tailwind styling.
 
-This project is intentionally focused on understanding:
+## Current status
 
-- Redux Toolkit (RTK)
-- async thunks for API interactions
-- Redux state organization
-- Tailwind CSS for fast UI styling
-- React + Vite app setup
-- working with a mock backend using JSON Server
+This project is actively using a mix of:
 
-## Project purpose
+- Redux Toolkit slices with async thunks for users
+- RTK Query for albums data
+- Tailwind CSS for styling
+- JSON Server as a local mock API
+- React + Vite frontend setup
 
-This app is a small CRUD-style project for managing users. It demonstrates how to fetch, add, and remove records from a fake API while keeping the app state centralized in Redux.
+It is a practical example of comparing and using both classic RTK patterns and RTK Query in the same app.
 
-It is a good reference project for learning how Redux Toolkit simplifies common state-management patterns compared to traditional Redux.
+## Learning focus
+
+- Redux Toolkit store setup and reducer organization
+- createAsyncThunk for user CRUD operations
+- RTK Query for cached API requests and mutations
+- loading/error state handling
+- component-level UI composition with Tailwind
 
 ## Tech stack
 
@@ -23,19 +28,20 @@ It is a good reference project for learning how Redux Toolkit simplifies common 
 - Vite
 - Redux Toolkit
 - React Redux
+- RTK Query
+- Axios
 - JSON Server
 - Tailwind CSS v4
-- Axios
-- Faker.js for generating sample data
+- Faker.js
 
 ## Features
 
-- fetch users from a local JSON server
-- add a new user
-- remove an existing user
-- loading and error states managed in Redux
-- responsive UI built with Tailwind classes
-- reusable UI components for buttons, panels, list items, and skeleton loading states
+- fetch users from a local JSON API
+- add users through a Redux thunk
+- remove users through a Redux thunk
+- fetch, add, and remove albums using RTK Query
+- loading and error states in the UI
+- reusable UI building blocks and Tailwind-based layout
 
 ## Project structure
 
@@ -44,6 +50,7 @@ src/
   components/
   hooks/
   store/
+    apis/
     slices/
     thunks/
   App.jsx
@@ -59,13 +66,13 @@ vite.config.js
 
 ```bash
 npm install
-npm run dev
 npm run start:server
+npm run dev
 npm run build
 npm run lint
 ```
 
-## Running the app
+## Running locally
 
 1. Install dependencies:
 
@@ -79,25 +86,27 @@ npm install
 npm run start:server
 ```
 
-3. Start the frontend dev server in another terminal:
+3. Start the frontend in another terminal:
 
 ```bash
 npm run dev
 ```
 
-The app uses a local JSON Server instance running on port 3005 and the frontend runs through Vite.
+The app currently expects the JSON Server API at `http://localhost:3005`.
 
-## Notes
+## Important note for deployment
 
-This project is mainly a Redux Toolkit learning project. The current implementation uses createSlice and createAsyncThunk patterns. It also serves as a foundation for exploring RTK Query concepts in future iterations.
+This project is currently set up for local development, not production deployment.
+
+Because the app calls `localhost:3005` directly in the API logic, it will not work correctly on Vercel or other static hosting providers unless the backend is moved to a hosted service or the API URLs are changed to environment variables.
 
 ## Learning goals
 
-- understand Redux Toolkit setup and store configuration
-- manage async data fetching with thunks
-- structure Redux slices cleanly
-- use Tailwind CSS efficiently in component-based UI
-- connect frontend state to a local API
+- understand Redux Toolkit fundamentals
+- compare thunk-based state handling with RTK Query
+- manage async API patterns cleanly
+- style a React app quickly with Tailwind
+- connect frontend state to a mock backend
 
 ## License
 
