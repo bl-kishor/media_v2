@@ -35,6 +35,47 @@
       "id": "QpqBStl7jk8"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/LC4NLkUHyo/607/2762",
+      "id": "wmo0FNwGohA"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/9ZEyDF/2869/1196",
+      "id": "aonQqEcFW8U"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/puc8ihBIol/3512/2285",
+      "id": "7MXX3cijnJY"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/bN1nz8LoT/2579/138",
+      "id": "PEA4yCIqMX8"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/wbcouSPWyA/330/551",
+      "id": "XOkQC991Up8"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/fLVhUNvAs/302/3835",
+      "id": "s4f86bPyQyA"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/9sBFvw0/183/3943",
+      "id": "HcPexThiNRg"
+    },
+    {
+      "albumId": "7fu9B3AD6O8",
+      "url": "https://picsum.photos/seed/zuDMQLn33/106/611",
+      "id": "QBII_hS42LY"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
