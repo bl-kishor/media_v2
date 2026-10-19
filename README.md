@@ -4,6 +4,8 @@ Media V2 is a React + Redux learning app that demonstrates how to manage a real-
 
 This project is built as a practical example for understanding async state flows, cached API queries, and reusable component organization in a modern React app.
 
+Important: this app is designed for local development and will not work on a public/live deployment as-is because all API calls are pointed to a local JSON Server instance (`http://localhost:3005`). To run it live, you would need to deploy the backend separately and replace the hardcoded URLs with a hosted API or environment variables.
+
 ## App overview
 
 The application includes:
